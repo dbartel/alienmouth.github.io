@@ -1,5 +1,6 @@
 name: alien mouth
 url: http://alienmouth.com
+baseurl: ""
 description: a lit journal.
 
 gems: [jekyll-paginate]
