@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div align = "center">
+    <iframe src="{{page.vid}}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p><h1>{{page.title}}</h1></p>
+</div>
+<div align="center">
+    {% for post in site.categories[page.posts] %}
+    <div class="items-wrapper">
+        <div class="item">
+            <p><a href="../{{ post.url }}">{{ post.title }} by {{ post.author }}</a>
+		<br />
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<br><br>
+
+
+<p align="center"><a href="people.html">read everyone's bio here</a></p>
+<br>
+
+
+{% include monthly_footer.html %}
+

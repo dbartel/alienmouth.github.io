@@ -5,7 +5,7 @@ date: 2016-02-22 17:06:25
 ---
 <div class="items-wrapper">
 	<div class="item">
-		<img alt="wreck/age" src="../images/wreckage.png" style="width:200px;height:200px;" />
+		<img alt="wreck/age" src="{{site.baseurl}}/images/wreckage.png" style="width:200px;height:200px;" />
 		<p>wreck / age (SHIPPING OCT. 14, 2015)<br />
 		poetry - 60 pages - soft cover paperback - $15 USD<br />
 		<br />
@@ -19,12 +19,12 @@ date: 2016-02-22 17:06:25
 
 <div class="items-wrapper">
 	<div class="item">
-		<img alt="Flammidemia" src="../images/william.png" style="width:200px;height:200px;" />
+		<img alt="Flammidemia" src="{{site.baseurl}}/images/william.png" style="width:200px;height:200px;" />
 		<p>Flammidemia.<br />
 		<br />
 		by <a href="http://www.williamjamespoetry.com/">william james</a></p>
 
-		<p><a href="../books/Flammidemia.pdf">read Flammidenia online</a></p>
+		<p><a href="{{site.baseurl}}/books/Flammidemia.pdf">read Flammidenia online</a></p>
 	</div>
 </div>
 
@@ -32,7 +32,7 @@ date: 2016-02-22 17:06:25
 
 <div class="items-wrapper">
 	<div class="item">
-		<img src="../images/leaves.jpg" style="width:200px; height:200px;">
+		<img src="{{site.baseurl}}/images/leaves.jpg" style="width:200px; height:200px;">
 		<p>Petals<br>
 		by <a href="http://davisland.info">Davis Land</a> &amp; <a href="http://twitter.com/gage_ledbetter">Gage Ledbetter (as James Leaf)</a></p>
 	</div>

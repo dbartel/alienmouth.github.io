@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div align="center">
+    <iframe src="{{ page.vid }}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <p><h1>the quarterly</h1></p>
+    <a href="{{ page.amazon }}">click here to get a copy - {{page.price}} - amazon</a>
+    <p align="center">with work from:</p>
+    <p>
+	{% for author in page.authors %} {{ author }}<br> {% endfor %}
+    </p>
+    <a href="{{page.amazon}}">get a copy - {{page.price}} - amazon</a>
+    <br>
+    {% include monthly_footer.html %}
+</div>
