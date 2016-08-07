@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div align = "center">
+
+    {% if page.vid %}
     <iframe src="{{page.vid}}" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    {% endif %}
+    
     <p><h1>{{page.title}}</h1></p>
 </div>
 <div align="center">
