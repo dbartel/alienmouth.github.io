@@ -36,10 +36,8 @@ module Jekyll
       if @type == $MONTHLY
         if !@authors.empty?
           # First match the post authors with the listed authors (so we can link to their piece from the bio page)
-          $log.info("Category #{@category}")
           @authors.each do |author|
             site.categories[@category].each do |post|
-              # $log.info("match #{author['name']} #{post['author']}")
               if post["author"] == author["name"]
                 # post matches author, so map it to that url
                 author["post"] = post.url
@@ -79,6 +77,7 @@ module Jekyll
 
     
     def generate(site)
+      # Generate each issue
       site.data["index"].each do |issue|
         is = Issue.new(issue, site.data[issue]["issue"])
         site.pages.concat(is.create_pages(site))
