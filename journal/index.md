@@ -8,9 +8,8 @@ title: journal
 
 {% assign issue = site.data[i]['issue'] %}
 
-<h1><b>
-    <a href="/{{ issue.cat | prepend: site.baseurl}}">{{issue.title}}</a>
-</b></h1>
+<h1><b><a href="/issue/{{i}}">{{issue.title}}</a></b></h1>
+    
 <div style="display:inline">
     {% for author in issue.authors %}
     {% if author.name %}{{ author.name }}
