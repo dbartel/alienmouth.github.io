@@ -15,5 +15,5 @@ we operate on rolling submissions basis. if you don't hear back from us, even if
 
 some other publishers we really like are "witch craft mag," "electric cereal," "the newer york," "have u seen my whale," "civil coping mechanisms," "bear parade," and "boost house" so read those to catch a feel for what we are going for
 
-the deadline for the summer quarterly edition is: july 25th at midnight<br>
-the deadline for the july monthly edition is: june 25th at midnight
+{% for submission in site.data.deadline %}the deadline for the {{ submission.name}} is: {{ submission.deadline }}<br>{% endfor %}
+
