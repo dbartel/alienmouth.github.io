@@ -1,0 +1,8 @@
+# This tells our generator what issues to generate
+# Each issue's data lives in a issue.yml file in its own directory
+# e.g. the issue for july2015 lives in july2015/issue.yml
+# The name of the directory corresponds with the category for each issues posts
+
+- july2015
+- fall2015
+- october2015

@@ -1,0 +1,11 @@
+---
+layout: piece
+---
+
+
+
+{% for person in page.authors %}
+<p><h1><a href="{{person.post}}">{{ person.name }}</a></h1>
+    {{ person.bio }}
+</p>
+{% endfor %}
