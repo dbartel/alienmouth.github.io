@@ -12,8 +12,7 @@ title: journal
     
 <div style="display:inline">
     {% for author in issue.authors %}
-    {% if author.name %}{{ author.name }}
-    {% else %} {{author}}{% endif %}{% if forloop.last == false %},&nbsp;{%endif%}
+    {% if author.name %}{{ author.name}}{% else %}{{author}}{% endif %}{% if forloop.last == false %},&nbsp;{%endif%}
     {% endfor %}
 </div><br>
 {% endfor %}
