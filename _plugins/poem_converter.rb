@@ -15,7 +15,7 @@ module Jekyll
 
     def convert(content)
       # TODO
-      "<div class='poem'>#{content.split("\n").join("<br>")}</div>"
+      "<div class='poem'>#{(content.gsub " ", "&nbsp;").split("\n").join("<br>")}</div>"
     end
   end
 end
