@@ -1,9 +1,0 @@
----
-layout: monthly
-title: july 2015
-vid: https://player.vimeo.com/video/132136575
-posts: july2015
----
-
-
-

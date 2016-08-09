@@ -31,9 +31,3 @@ Deadlines for submitting an issue exist in *_data/deadline.yaml*
 ## Formatting posts
 
 For formatting poetry, use the *.poem* extension to make formatting less of a hassle. **TODO put an example here**
-
-
-
-
-
-
