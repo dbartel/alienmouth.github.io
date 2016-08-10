@@ -1,0 +1,33 @@
+/*
+  Temp class for new css classes
+  Mostly so I can keep track of new stuff added
+  This will hopefully get refactored into some scss files
+*/
+
+
+/* _layout/monthly.html */
+.monthly {
+    text-align: center;
+}
+
+.piece-title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.piece-list {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.piece-list > div {
+    padding-bottom: 10px;
+}
+
+.issue-video {
+    width: 640px;
+    height: 480px;
+}
+
+/* _layout/monthly.html */
